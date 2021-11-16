@@ -3,6 +3,7 @@
 Implements the [Rich](https://pypi.org/project/rich/) programming library with [Flask](https://pypi.org/project/Flask/). All features are toggleable, including:
 
 - Better logging
+- Colorful tracebacks
 
 ## Usage
 
