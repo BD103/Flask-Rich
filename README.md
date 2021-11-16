@@ -35,6 +35,18 @@ Whether to allow [Rich's console markup](https://rich.readthedocs.io/en/latest/m
 
 An example of console markup is `[blue]Hello[/blue], world!`.
 
+#### `RICH_TRACEBACK: bool = True`
+
+Whether to use [Rich's traceback](https://rich.readthedocs.io/en/latest/traceback.html) handler.
+
+#### `RICH_TRACEBACK_EXTRA_LINES: int = 1`
+
+When Rich prints the lines of code which raised the error, how many lines around it does it print as well. In the library it defaults to 3, but 1 is better for web applications.
+
+#### `RICH_TRACEBACK_SHOW_LOCALS: bool = False`
+
+Whether to print the local variables with traceback.
+
 ## Contributing
 
 PRs are welcome! You can setup your own copy of the source code with:
