@@ -15,6 +15,8 @@ from flask import Flask
 rich = RichApplication()
 
 app = Flask(__name__)
+app.config["RICH_EXAMPLE_SETTING"] = "value"
+
 rich.init_app(app)
 
 # Or
@@ -23,17 +25,11 @@ rich.init_app(app)
 
 ### Class options
 
-#### `app = None`
-
-The Flask app that is used. It is optional, but you need to call `RichApplication.init_app(app)` later to enabled to library.
-
-app=None, enable_logging: bool=True, logging_markup: bool=True
-
-#### `enable_logging: bool = True`
+#### `RICH_LOGGING: bool = True`
 
 Whether to use [Rich's logging](https://rich.readthedocs.io/en/latest/logging.html) handler.
 
-#### `logging_markup: bool = True`
+#### `RICH_LOGGING_MARKUP: bool = True`
 
 Whether to allow [Rich's console markup](https://rich.readthedocs.io/en/latest/markup.html#console-markup) format in logging.
 
