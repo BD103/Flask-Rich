@@ -48,6 +48,14 @@ When Rich prints the lines of code which raised the error, how many lines around
 
 Whether to print the local variables with traceback.
 
+#### `RICH_ROUTES: bool = True`
+
+Whether to add a new command that uses [Rich's tables](https://rich.readthedocs.io/en/latest/tables.html) to show all routes. (Activate with `flask rich-routes`.)
+
+#### `RICH_ROUTES_MODE: str = "table"`
+
+What mode the command is in. There is only one option: table.
+
 ## Contributing
 
 PRs are welcome! You can setup your own copy of the source code with:
