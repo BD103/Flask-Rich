@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Flask-Rich"
-version = "0.2.1"
+version = "0.3.0"
 description = "Rich implementation for Flask"
 license = "MIT"
 authors = ["BD103 <dont@stalk.me>"]

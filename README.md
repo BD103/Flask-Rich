@@ -4,6 +4,7 @@ Implements the [Rich](https://pypi.org/project/rich/) programming library with [
 
 - Better logging
 - Colorful tracebacks
+- Better `routes` command
 
 ## Usage
 
