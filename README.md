@@ -1,3 +1,8 @@
+> [!WARNING]
+> **This project is no longer maintained.** Please see the official fork [here](https://github.com/zyf722/Flask-Rich) (zyf722/Flask-Rich). All releases after 0.3 are published from the fork.
+
+---
+
 # Flask Rich
 
 Implements the [Rich](https://pypi.org/project/rich/) programming library with [Flask](https://pypi.org/project/Flask/). All features are toggleable, including:
